@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(24, 170, 170, 0.2) 0%,
+    #888cac 99.48%
+  );
+}
+header {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  border: 2px solid #000000;
+  text-align: end;
+  font-size: 36px;
+  margin: 3px;
+}
+h1 {
+  font-size: 40px;
+}
+footer {
+  background: #ffffff;
+  border: 2px solid #000000;
+}
+.conteiner {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+.contact {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  width: 200px;
+}
+.age {
+  border: 1px solid #000000;
+  margin: 12px 12px 20px 12px;
+  font-size: 24px;
+}
+.phone-number {
+  border: 1px solid #000000;
+  margin: 0px 12px 20px 12px;
+  font-size: 20px;
+}
+.mail {
+  border: 1px solid #000000;
+  margin: 0px 12px 20px 12px;
+  font-size: 10px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+}
+.information {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  width: 700px;
+}
