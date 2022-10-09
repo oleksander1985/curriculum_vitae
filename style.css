@@ -10,22 +10,25 @@ body {
 }
 header {
   background: #ffffff;
-  mix-blend-mode: normal;
   border: 2px solid #000000;
   text-align: end;
+  margin: 38px 60px 0px 60px;
+}
+.header-text {
+  margin: 3px 55px 3px;
   font-size: 36px;
+  font-weight: 200;
+  color: #16171a;
 }
 h1 {
   font-size: 40px;
-}
-footer {
-  background: #ffffff;
-  border: 2px solid #000000;
+  margin: 25px 60px 49px;
 }
 .conteiner {
   display: flex;
   align-self: center;
   justify-content: space-between;
+  margin: 0px 60px 25px;
 }
 .contact {
   background-color: #ffffff;
@@ -35,21 +38,68 @@ footer {
 .age {
   border: 1px solid #000000;
   margin: 12px 12px 20px 12px;
+}
+.age-text {
   font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.age-number {
+  font-size: 48px;
+  font-weight: 700;
+  margin-left: 103px;
+  margin-right: 15px;
 }
 .phone-number {
   border: 1px solid #000000;
   margin: 0px 12px 20px 12px;
+}
+.phone {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.number {
+  margin: 14px 8px 10px;
+  font-weight: 700;
   font-size: 20px;
+  color: #16171a;
 }
 .mail {
   border: 1px solid #000000;
   margin: 0px 12px 20px 12px;
+}
+.mail-icon {
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.gmail {
+  font-weight: 700;
   font-size: 10px;
+  color: #16171a;
+  margin: 18px 9px 18px 8px;
 }
 .adress {
   border: 1px solid #000000;
   margin: 0px 12px 20px 12px;
+}
+.icon-country {
+  display: flex;
+  justify-content: baseline;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.country {
+  font-weight: 700;
+  font-size: 20px;
+  color: #16171a;
+  margin: 10px 14px 0px 13px;
+}
+.city {
+  margin: 12px 52px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #16171a;
 }
 .front-end {
   background: #5178db;
@@ -57,9 +107,17 @@ footer {
   border-radius: 10px;
   margin: 0px 12px 20px 12px;
 }
+.front-icon {
+  margin: 1px 38px;
+}
 .social {
+  margin: 6px;
+}
+.social-icon {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .information {
   background-color: #ffffff;
@@ -85,4 +143,14 @@ footer {
 .foto {
   border: 2px solid #000000;
   border-radius: 20px;
+}
+footer {
+  background: #ffffff;
+  border: 2px solid #000000;
+  margin: 0px 60px 38px;
+}
+.footer-text {
+  margin: 11px 55px 10px;
+  font-size: 24px;
+  color: #16171a;
 }
