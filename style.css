@@ -127,22 +127,63 @@ h1 {
 .profile {
   border: 1px solid #000000;
   margin: 12px 12px 20px 12px;
+  padding: 12px;
+}
+.profile-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #16171a;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+.profile-text {
+  font-weight: 700;
+  font-size: 14px;
+  color: #16171a;
+  margin-bottom: 0px;
+}
+.work-conteiner {
+  display: flex;
+  margin: 0px 12px 20px;
 }
 .education {
   border: 1px solid #000000;
+  padding: 12px;
+  width: 328px;
+  height: 220px;
+}
+.edu-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #16171a;
+  margin-top: 0px;
 }
 .work {
   border: 1px solid #000000;
+  margin-left: 20px;
+  padding: 12px;
+  width: 328px;
+  height: 220px;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #16171a;
+  margin-top: 0px;
 }
 .skilss {
   border: 1px solid #000000;
+  margin: 0px 12px 16px;
 }
 .lang {
   border: 1px solid #000000;
+  margin: 0px 12px 12px;
 }
 .foto {
   border: 2px solid #000000;
   border-radius: 20px;
+  width: 200px;
+  height: 266px;
 }
 footer {
   background: #ffffff;
