@@ -158,6 +158,20 @@ h1 {
   color: #16171a;
   margin-top: 0px;
 }
+.univer {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 59px;
+}
+.year-univer {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
 .work {
   border: 1px solid #000000;
   margin-left: 20px;
@@ -170,14 +184,77 @@ h1 {
   font-size: 24px;
   color: #16171a;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+.first-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.year-first-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.master-first-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.second-work-title {
+  display: flex;
+}
+.second-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+.year-second-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+  margin-top: 14px;
+}
+.master-second-work {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 6px;
 }
 .skilss {
   border: 1px solid #000000;
   margin: 0px 12px 16px;
+  padding: 12px;
+  height: 100px;
+}
+.skilss-title {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0px;
 }
 .lang {
   border: 1px solid #000000;
   margin: 0px 12px 12px;
+  padding: 12px;
+  height: 80px;
+}
+.lang-title {
+  color: #16171a;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0px;
 }
 .foto {
   border: 2px solid #000000;
