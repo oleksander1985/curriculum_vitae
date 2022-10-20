@@ -247,14 +247,27 @@ h1 {
 .lang {
   border: 1px solid #000000;
   margin: 0px 12px 12px;
-  padding: 12px;
+
   height: 80px;
 }
 .lang-title {
   color: #16171a;
   font-weight: 700;
   font-size: 24px;
-  margin-top: 0px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 7px;
+}
+.lang-text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 124px;
+  padding-right: 92px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.lang-text-p {
+  margin: 0px;
 }
 .foto {
   border: 2px solid #000000;
