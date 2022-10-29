@@ -235,14 +235,26 @@ h1 {
 .skilss {
   border: 1px solid #000000;
   margin: 0px 12px 16px;
-  padding: 12px;
+
   height: 100px;
 }
 .skilss-title {
   color: #16171a;
   font-weight: 700;
   font-size: 24px;
-  margin-top: 0px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+.skilss-text {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.skilss-text-p {
+  margin: 0px;
 }
 .lang {
   border: 1px solid #000000;
