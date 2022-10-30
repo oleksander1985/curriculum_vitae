@@ -248,12 +248,35 @@ h1 {
 }
 .skilss-text {
   display: flex;
-  justify-content: space-between;
+
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
-.skilss-text-p {
+.skilss-text-p1 {
+  margin: 0px 51px 0px 0px;
+}
+.skilss-text-p2 {
+  margin: 0px 44px 0px 0px;
+}
+.skilss-text-p3 {
+  margin: 0px 42px 0px 0px;
+}
+.skilss-text-p4 {
+  margin: 0px;
+}
+.skilss-text-p5 {
+  margin: 0px 102px 0px 0px;
+}
+.skilss-text-p6 {
+  margin: 0px 99px 0px 0px;
+}
+.skilss-text-p7 {
+  margin: 0px 97px 0px 0px;
+}
+.skilss-text-p8 {
   margin: 0px;
 }
 .lang {
@@ -296,4 +319,20 @@ footer {
   margin: 11px 55px 10px;
   font-size: 24px;
   color: #16171a;
+}
+.name-and-button {
+  display: flex;
+}
+.button {
+  background: #5178db;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 439px;
+  height: 49px;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+}
+.text-button {
+  margin: 0px;
 }
