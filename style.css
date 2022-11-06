@@ -336,3 +336,53 @@ footer {
 .text-button {
   margin: 0px;
 }
+
+.second-page {
+  display: flex;
+}
+.git-figma-be {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+.git {
+  border: 1px solid #000000;
+  border-radius: 88px;
+  width: 176px;
+  height: 176px;
+}
+.figma {
+  border: 1px solid #000000;
+  border-radius: 88px;
+  width: 176px;
+  height: 176px;
+}
+.behance {
+  border: 1px solid #000000;
+  border-radius: 88px;
+  width: 176px;
+  height: 176px;
+}
+.training {
+  background: #ffffff;
+  border: 2px solid #000000;
+}
+.training-html-css {
+  border: 1px solid #000000;
+}
+.icon-html-css {
+  display: flex;
+}
+.train-html-css {
+  display: flex;
+}
+.training-js {
+  border: 1px solid #000000;
+}
+.icon-js {
+  border: 2px solid #000000;
+  height: 100px;
+  width: 100px;
+}
+.train-js {
+  display: flex;
+}
