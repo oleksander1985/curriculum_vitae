@@ -12,7 +12,7 @@ header {
   background: #ffffff;
   border: 2px solid #000000;
   text-align: end;
-  margin: 38px 60px 0px 60px;
+  margin: 0px 60px;
 }
 .header-text {
   margin: 3px 55px 3px;
@@ -313,7 +313,7 @@ h1 {
 footer {
   background: #ffffff;
   border: 2px solid #000000;
-  margin: 0px 60px 38px;
+  margin: 0px 60px;
 }
 .footer-text {
   margin: 11px 55px 10px;
@@ -322,6 +322,7 @@ footer {
 }
 .name-and-button {
   display: flex;
+  justify-content: space-between;
 }
 .button {
   background: #5178db;
@@ -332,6 +333,8 @@ footer {
   font-weight: 500;
   font-size: 32px;
   text-align: center;
+  margin-top: 25px;
+  margin-right: 60px;
 }
 .text-button {
   margin: 0px;
