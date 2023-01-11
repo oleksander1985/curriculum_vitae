@@ -398,6 +398,7 @@ footer {
 }
 .train-html-css {
   display: flex;
+  justify-content: space-between;
 }
 .training-js {
   border: 1px solid #000000;
@@ -410,4 +411,5 @@ footer {
 }
 .train-js {
   display: flex;
+  justify-content: space-between;
 }
